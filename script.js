@@ -74,7 +74,7 @@ async function getWeatherByLocation(city) {
     addWeatherToPage(respData);
 }
 
-function addWeatherToPage(result) {
+/*function addWeatherToPage(result) {
     const data = result.list
     const resultForecast = document.createElement('div')
     for (let i in data) {
@@ -94,7 +94,7 @@ function addWeatherToPage(result) {
     //  cleanup   
     main.innerHTML = "";
     main.appendChild(resultForecast);
-};
+};*/
 
 function Ktoc(K) {
     return Math.floor(K - 273.15);
