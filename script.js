@@ -84,7 +84,7 @@ function addWeatherToPage(result) {
             <div class="weatherforecast">
               <div class = "weatherforecastitem">
                 <div class = "day">${weekday[i]}</div>
-                <img src="http://openweathermap.org/img/wn/${data[i].weather[0].icon}@2x.png" alt="weather icon" class="w-icon">
+                <!--<img src="http://openweathermap.org/img/wn/${data[i].weather[0].icon}@2x.png" alt="weather icon" class="w-icon">->
                 <div class="temp"> ${temp}&deg;C</div>
               </div>
             </div>
